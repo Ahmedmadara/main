@@ -13,7 +13,6 @@ pipeline{
         DOCKER_PASS = 'dockerToken'
         IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
         IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
-        JENKINS_API_TOKEN = credentials("JENKINS_API_TOKEN")
 
     }
     
