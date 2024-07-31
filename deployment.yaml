@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: complete-prodcution-e2e-deployment
-        image: 
+        image: ahmedmadara/complete-prodcution-e2e-pipeline:1.0.0-25
     spec:
       resources:
        limits : 
