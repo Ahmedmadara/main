@@ -6,7 +6,8 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: complete-prodcution-e2e-deployment
+      app: complete-prodcution-e2e-deployment   
+
   template:
     metadata:
       labels:
